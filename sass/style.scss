@@ -1,0 +1,35 @@
+
+.body{
+    font-family: museosanscyrl-700, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+
+
+
+@import url('blocks/_header.scss');
+@import url('blocks/_navigation.scss');
+@import url('blocks/_social.scss');
+@import url('blocks/_heading.scss');
+@import url('blocks/_slider.scss');
+@import url('blocks/_card.scss');
+@import url('blocks/_owl-carousel.scss');
+@import url('blocks/_acardion.scss');
+@import url('blocks/_info.scss');
+@import url('blocks/_buttons.scss');
+@import url('blocks/_media_index.scss');
+@import url('blocks/_media_info.scss');
+
+@import url('base/bootstrap-reboot.min.css');
+@import url('base/_font.scss');
+
+

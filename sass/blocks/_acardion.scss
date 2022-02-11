@@ -1,0 +1,93 @@
+
+
+.acardion__container .heading{
+    margin: 0 auto;
+    max-width: 164px;
+    margin-bottom: 32px;
+    margin-top: 80px;
+}
+body { margin:0; padding:0; }
+/*----- Accordion -----*/
+p{ margin:0; color:#575757;}
+.accordion, .accordion * { 
+    -webkit-box-sizing:border-box;  
+    -moz-box-sizing:border-box;  
+    box-sizing:border-box; 
+}
+.accordion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden; 
+    background:#fff;
+    margin-bottom: 80px; 
+    }
+.accordion-section{
+    width: 996px;
+    margin-bottom: 12px;
+    position: relative;
+}
+ /*----- Section Titles -----*/
+.accordion-section-title { 
+    width: 996px;
+    display:inline-block; 
+    padding: 20px 536px 20px 24px;
+    background:#fff; 
+    transition:all linear 0.15s; 
+    -webkit-transition:all linear 0.15s; 
+    -moz-transition:all linear 0.15s; 
+    -ms-transition:all linear 0.15s; 
+    -o-transition:all linear 0.15s; 
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    color: #1A1A1A;
+    text-decoration:none; 
+    margin:0 0 1px 0; 
+    border:1px solid #dadada; 
+    position:relative; 
+    border-radius:4px; 
+    -webkit-border-radius:16px; 
+    -moz-border-radius:16px; 
+    -ms-border-radius:16px; 
+    -o-border-radius:16px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+     }
+.accordion-section-subtitle{
+    margin-top: 4px;
+    display: block;
+    font-size: 13px;
+    line-height: 140%;
+    color: #949494
+
+     }
+.accordion-section-title.active, .accordion-section-title:hover { 
+    background:#93BBEA; 
+    color:#fff;}
+/*----- Section Content -----*/ 
+.accordion-section-content { 
+    padding:15px; 
+    display:none;
+     background:#E2D7C9; 
+     margin-bottom:2px; 
+     border-bottom:1px solid #dadada;
+     border-radius: 16px; 
+    }
+.active, .open { 
+    display:block;
+}
+.arrow { 
+    display: block;
+    color:#E5E5E5;
+    position:absolute; 
+    top:50%; 
+    right:24px; 
+    transform: translateY(-10px);
+    transition: all 0.5s;
+} 
+.accordion-section-title.active .arrow {
+    margin-top:-10px;
+    transform: rotate(90deg);
+}

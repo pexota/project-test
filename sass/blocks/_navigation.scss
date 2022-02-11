@@ -1,0 +1,27 @@
+.navigation{
+    display: flex;
+}
+.navigation__menu{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background: #FFFFFF;
+    border-radius: 12px;
+    width: 160px;
+    height: 48px;
+    color: #1A1A1A;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 120%;
+    text-decoration: none;
+}
+.navigation__menu:hover { 
+    background:#5992E8; 
+    color:#fff;}
+.navigation__menu:not(:last-child){
+    margin-right: 8px;
+}
+.navigation__menu__icon{
+    margin-right: 8px;
+    transform: translateY(-2px);
+}

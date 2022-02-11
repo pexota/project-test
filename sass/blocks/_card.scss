@@ -1,0 +1,32 @@
+.card{
+    display: flex;
+    width: 282px;
+    height: 160px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    text-decoration: none;
+}
+.card__title{
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    color: #1A1A1A;
+    max-width: 240px;
+}
+.card__subtitle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 140%;    
+    color: #949494;
+    max-width: 282px;
+}
+.card__img{
+    width: 104px;
+    height: 162px;
+}
